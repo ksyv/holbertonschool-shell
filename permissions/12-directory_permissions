@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir my_dir umask=026
+mkdir my_dir umask=0026
