@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -n -t'' +5| head -n11| cut -f1
+sort -n +5| head -n11| cut -f1
