@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +2 |cut -f1| sort | uniq -c |sort -nr| head -n11 #retirer la premiere ligne | ne garder que la premiere collone| trier par nom| supprimer les doublons en notant le nombre d'occurence| trier par chiffre décroissant | ne garder que les 11 premiere ligne
+tail -n +2 |cut -f1| sort | uniq -c |sort -nr|cut -f3| head -n11 #retirer la premiere ligne | ne garder que la premiere collone| trier par nom| supprimer les doublons en notant le nombre d'occurence| trier par chiffre décroissant | ne garder que le troisieme arguments (apres espace et nombre d'occurence) | ne garder que les 11 premiere ligne
