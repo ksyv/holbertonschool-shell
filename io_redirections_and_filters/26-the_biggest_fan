@@ -1,0 +1,2 @@
+#!/bin/bash
+sort -n -t'' +5| head -n11| cut -d'' -f1
