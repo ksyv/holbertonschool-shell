@@ -1,2 +1,2 @@
 #!/bin/bash
-paste - - | cut d ' ' -f1 #rejoindre deux ligne consecutives | couper selon le caractère 'espace' et imprimer la première chaine
+paste - - | cut d ' ' #rejoindre deux ligne consecutives | couper selon le caractère 'espace' et imprimer la première chaine
