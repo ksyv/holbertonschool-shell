@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $bestchol\#$(($water\#$WATER + $stir\#STIR))
+echo $((10#$WATER + 10#$STIR))
